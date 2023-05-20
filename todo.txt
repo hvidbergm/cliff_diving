@@ -1,0 +1,16 @@
+-- PHASE 1 --
+*Fix mouse click functionality
+*Add user auth
+*Add more info to markers --> contributor, desription, how to get there, safety measures, altitude
+*Add basic styling
+    *Website
+    *Map
+*Add information on the site
+*Create flow for validating spots --> do not implement before corrupt behaviour has been seen (the later we filter, the easier it is to add data, hence the more spots will be added). V1=validation DB where I can mark which should be transfered to deployment
+*Deploy to get some actual spots on the map
+
+-- PHASE 2 --
+*Add upvote ranking --> issue of spam/bad user behaviour
+*Add commenting --> issue of content filtering
+*Calculate nearest city
+*Migrate to an actual DB - maybe firestore?
