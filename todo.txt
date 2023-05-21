@@ -13,6 +13,16 @@
 *Calculate nearest city
 *Migrate to an actual DB - maybe firestore?
 
+-- MAP UPGRADES: TBD --
+*Cluster markers on zoom: https://tomickigrzegorz.github.io/leaflet-examples/#09.marker-grouping-markercluster-plugin 
+*Center map when clicking marker: https://tomickigrzegorz.github.io/leaflet-examples/#22.center-map-when-click-marker
+*Full screen button: https://tomickigrzegorz.github.io/leaflet-examples/#27.fullscreen
+*Ask for location data to center map: https://tomickigrzegorz.github.io/leaflet-examples/#33.location
+*Location button: https://tomickigrzegorz.github.io/leaflet-examples/#49.location-button
+*Tile layers (sattelite/map): https://tomickigrzegorz.github.io/leaflet-examples/#34.multiple-tile-layers
+*Tabs in popup: https://tomickigrzegorz.github.io/leaflet-examples/#51.tabs-in-popup
+*Popup as side panel on fixed position: https://tomickigrzegorz.github.io/leaflet-examples/#68.popup-in-a-fixed-position
+
 --- COMPLETED ---
 *Add more info to markers --> contributor, desription, how to get there, safety measures, altitude
 *Add curated lists of spots found online
