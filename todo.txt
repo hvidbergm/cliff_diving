@@ -1,5 +1,4 @@
 -- PHASE 1 --
-*Add curated lists of spots found online
 *Add user auth
 *Add more info to markers --> contributor, desription, how to get there, safety measures, altitude
 *Add basic styling
@@ -17,4 +16,5 @@
 
 
 --- COMPLETED ---
+*Add curated lists of spots found online
 *Fix mouse click functionality

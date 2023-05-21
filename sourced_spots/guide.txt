@@ -1,0 +1,6 @@
+**GUIDE TO COVERT MULTIPLE KML FILES INTO A SINGLE CSV**
+
+Store KML files in the 'files' folder.
+Run 'extract_all_spots.ipynb'.
+
+Now you have a CSV with all the spots that can be added to the DB.
