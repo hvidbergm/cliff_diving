@@ -1,5 +1,5 @@
 -- PHASE 1 --
-*Fix mouse click functionality
+*Add curated lists of spots found online
 *Add user auth
 *Add more info to markers --> contributor, desription, how to get there, safety measures, altitude
 *Add basic styling
@@ -14,3 +14,7 @@
 *Add commenting --> issue of content filtering
 *Calculate nearest city
 *Migrate to an actual DB - maybe firestore?
+
+
+--- COMPLETED ---
+*Fix mouse click functionality

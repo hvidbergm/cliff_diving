@@ -50,3 +50,4 @@ button[type="submit"]:hover {
 }
 
 /* Add more CSS styles as needed */
+img.huechange { filter: hue-rotate(180deg); }

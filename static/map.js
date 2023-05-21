@@ -28,22 +28,46 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     );
 
-    // Add new marker on map click
-    var marker; 
-    // make a state of clicked or not clicked
-    // if clicked, remove marker on next click
-    // if not clicked, add marker on next click
-        map.on('click', function (e) {
-        var lat = e.latlng.lat;
-        var lng = e.latlng.lng;
-        if (marker) {
+    // Add new marker on map click but remove the marker on the next click
+    var marker;
+    var mouseClicked = false;
+    map.on('click', function (e) {
+        if (mouseClicked == true) {
+            mouseClicked = false;
             map.removeLayer(marker);
+        } else {
+            var lat = e.latlng.lat;
+            var lng = e.latlng.lng;
+            if (marker) {
+                map.removeLayer(marker);
+            }
+            marker = L.marker([lat, lng]).addTo(map);
+            marker._icon.classList.add("huechange");
+            marker.bindPopup('<button id="markerButton">Add this spot</button>').openPopup();
+            document.getElementById('markerButton').addEventListener('click', function () {
+                window.open('https://docs.google.com/forms/d/e/1FAIpQLSffNRZ9sekurtFgDXxg7L44AqPEGPcYIjpCp4eD9dALATmIRg/viewform?entry.1577354519=' + lng + '&entry.1555334124=' + lat);
+                map.removeLayer(marker);
+            });
+            mouseClicked = true;
         }
-        marker = L.marker([lat, lng]).addTo(map);
-        marker.bindPopup('<button id="markerButton">Add this spot</button>').openPopup();
-        document.getElementById('markerButton').addEventListener('click', function () {
-            window.open('https://docs.google.com/forms/d/e/1FAIpQLSffNRZ9sekurtFgDXxg7L44AqPEGPcYIjpCp4eD9dALATmIRg/viewform?entry.1577354519=' + lng + '&entry.1555334124=' + lat);
-            map.removeLayer(marker);
-        });
     });
+
+    // // Add new marker on map click
+    // var marker; 
+    // var mouseState = false;
+    // // if clicked, remove marker on next click
+    // // if not clicked, add marker on next click
+    //     map.on('click', function (e) {
+    //     var lat = e.latlng.lat;
+    //     var lng = e.latlng.lng;
+    //     if (marker) {
+    //         map.removeLayer(marker);
+    //     }
+    //     marker = L.marker([lat, lng]).addTo(map);
+    //     marker.bindPopup('<button id="markerButton">Add this spot</button>').openPopup();
+    //     document.getElementById('markerButton').addEventListener('click', function () {
+    //         window.open('https://docs.google.com/forms/d/e/1FAIpQLSffNRZ9sekurtFgDXxg7L44AqPEGPcYIjpCp4eD9dALATmIRg/viewform?entry.1577354519=' + lng + '&entry.1555334124=' + lat);
+    //         map.removeLayer(marker);
+    //     });
+    // });
 });
