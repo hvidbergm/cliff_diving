@@ -1,6 +1,5 @@
 -- PHASE 1 --
 *Add user auth
-*Add more info to markers --> contributor, desription, how to get there, safety measures, altitude
 *Add basic styling
     *Website
     *Map
@@ -14,7 +13,7 @@
 *Calculate nearest city
 *Migrate to an actual DB - maybe firestore?
 
-
 --- COMPLETED ---
+*Add more info to markers --> contributor, desription, how to get there, safety measures, altitude
 *Add curated lists of spots found online
 *Fix mouse click functionality
