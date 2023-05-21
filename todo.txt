@@ -13,6 +13,9 @@
 *Calculate nearest city
 *Migrate to an actual DB - maybe firestore?
 
+-- SITE UPGRADES: TBD --
+*Header: https://getbootstrap.com/docs/5.3/examples/headers/    
+
 -- MAP UPGRADES: TBD --
 *Cluster markers on zoom: https://tomickigrzegorz.github.io/leaflet-examples/#09.marker-grouping-markercluster-plugin 
 *Center map when clicking marker: https://tomickigrzegorz.github.io/leaflet-examples/#22.center-map-when-click-marker
