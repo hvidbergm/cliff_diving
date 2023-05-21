@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name> Minnesota Cliff and Bridge Jumping</name>
+    <description>A collection of jump-able cliffs and bridges throughout Minnesota. Green place marks represent locations I have visited. Red place marks represent places which I have only heard of.</description>
+    <Style id="icon-124-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/124-red.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-124-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/124-red.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-124">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-124-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-124-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-124-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/124-red.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-124-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/124-red.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-124-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-124-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-124-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-62-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/62-green.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-62-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/62-green.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-62">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-62-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-62-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-62-nodesc-normal">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/62-green.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-62-nodesc-highlight">
+      <IconStyle>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/62-green.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-62-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-62-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-62-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Spots</name>
+      <Placemark>
+        <name>The Ice House</name>
+        <description>20 foot jump off the main structure and 10 foot off the concrete pillar. Cold, clear water.</description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            -92.092257,46.784594,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lester Train Bridge</name>
+        <description>60ft train bridge with surrounding 40ft, 30ft and 15ft cliffs.</description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            -92.006774,46.838373,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lester Park Deeps</name>
+        <description>40ft and 30ft cliffs with a little running start, 30ft strait down cliff and a natural water slide.</description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            -92.00938,46.843622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Taylors Falls Cliff</name>
+        <description>15-20ft. Cool spot.</description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            -92.657307,45.396017,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>St. Croix River Cliffs</name>
+        <description>More than 50 ft.</description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            -92.680637,45.371259,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Waite Park Quarry</name>
+        <description><![CDATA[One 25&#39; jump with many other 20&#39; and 15&#39; ers. Good place for beginners.]]></description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            -94.232821,45.535842,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tettgouche State Park Cliffs</name>
+        <description>Great 20 footer into deep superior water.</description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            -91.1972734,47.3358418,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Split Rock Lighthouse</name>
+        <description>Smaller cliffs into refreshing Superior water.</description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            -91.366526,47.199995,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Genoa Cliffs</name>
+        <styleUrl>#icon-124-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -92.490345,47.463539,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Stewartville Cliffs</name>
+        <description>Very hidden quarry on private land. Jump at your own risk. Fairly large cliffs.</description>
+        <styleUrl>#icon-124</styleUrl>
+        <Point>
+          <coordinates>
+            -92.52876,43.85592,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Section 30 Quarry</name>
+        <styleUrl>#icon-124-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -91.785091,47.912232,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Chisholm Mine Pit</name>
+        <styleUrl>#icon-124-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -92.908378,47.476401,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Miners Lake Cliffs</name>
+        <styleUrl>#icon-124-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -91.848927,47.910819,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cascade Falls</name>
+        <styleUrl>#icon-124-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -90.523841,47.70818,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Taylors Falls Cliffs</name>
+        <styleUrl>#icon-62-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -92.650838,45.39897,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lake Ore-be-gone Cliffs</name>
+        <styleUrl>#icon-124-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -92.4634377,47.4815568,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Carlton Cliffs</name>
+        <styleUrl>#icon-124-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -92.404724,46.663111,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lake of the Isles Bridge</name>
+        <description><![CDATA[25&#39; bridge. Not legal.]]></description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            -93.312068,44.954724,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Arcola Bridge</name>
+        <styleUrl>#icon-124-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -93.580065,44.944449,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Como Pool Artificial Cliffs</name>
+        <description>The highest platform is 10 feet, and there is a 1m diving board as well.</description>
+        <styleUrl>#icon-124</styleUrl>
+        <Point>
+          <coordinates>
+            -93.14909,44.976359,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sketch City</name>
+        <description><![CDATA[15&#39; cliff with a required running start to clear the underwater rock ledge. Also mini cliffs perfect for the feint of heart.]]></description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            -92.006408,46.840214,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Coon Rapids Tressels</name>
+        <styleUrl>#icon-124-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -93.388558,45.209132,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Ferry St. Bridge</name>
+        <styleUrl>#icon-124-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -93.395709,45.19102,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gooseberry Falls Cliffs</name>
+        <description>May be sketchy depending on water level.</description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            -91.476205,47.14819,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Temperance River Cliff</name>
+        <description><![CDATA[A nice 25&#39; jump into the river.]]></description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            -90.873628,47.556097,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Makwa Lake Cliffs</name>
+        <styleUrl>#icon-124-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -91.06091,48.004108,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Temperance River Cliffs</name>
+        <description><![CDATA[40&#39; jump with many other lower options.]]></description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            -90.873553,47.553479,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Vermillion Falls River</name>
+        <description>10 -15 ft cliffs  but you can jump or rope swing from the trees above. There are higher cliffs nearby but the water may be too shallow.</description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            -92.8414679,44.7258338,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lake Byllesby Cliffs</name>
+        <description>Good 40 footer and 50 footer. Jumping can lead to possible harassment and or a ticket by local authorities but is definitely worth the risk. Park at the south lot and walk west on the trail along the lake.</description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            -92.950374,44.508146,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Saint Croix Cliffs</name>
+        <description>Beware of shallow water, running start will be needed on this cliff if the water is too low. Rock outcropping 6 feet under the surface.</description>
+        <styleUrl>#icon-62</styleUrl>
+        <Point>
+          <coordinates>
+            -92.6799774,45.3729019,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

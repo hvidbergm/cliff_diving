@@ -1,0 +1,884 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Cliff Jumping</name>
+    <description>The spots in Southern California where the extreme cliff jumpers from http://12feetunder.com/ go to do some cliff jumping</description>
+    <Style id="icon-503-DB4436-normal">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-503-DB4436-highlight">
+      <IconStyle>
+        <color>ff3644db</color>
+        <scale>1.1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="16" xunits="pixels" y="32" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1.1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-503-DB4436">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-503-DB4436-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-503-DB4436-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-0000FF-5000-normal">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-0000FF-5000-highlight">
+      <LineStyle>
+        <color>ffff0000</color>
+        <width>7.5</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-0000FF-5000">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-0000FF-5000-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-0000FF-5000-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-FFFFFF-3000-115-normal">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>73ffffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-FFFFFF-3000-115-highlight">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>73ffffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-FFFFFF-3000-115">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FFFFFF-3000-115-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FFFFFF-3000-115-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="poly-FFFFFF-3000-26-normal">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>3</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>1affffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-FFFFFF-3000-26-highlight">
+      <LineStyle>
+        <color>ffffffff</color>
+        <width>4.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>1affffff</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-FFFFFF-3000-26">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-FFFFFF-3000-26-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-FFFFFF-3000-26-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Untitled layer</name>
+      <Placemark>
+        <name>The Punchbowls</name>
+        <description>An great spot to go hiking, swimming, camping and of course Cliff Jumping!Videos and Pictures of Punchbowls (http://12feetunder.com/Rocks/pics/Punchbowls/Spots.php)</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -119.056348,34.448998,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Rindge Dam</name>
+        <description>The absolute best place to go Cliff Jumping in Southern California. 12 feet Under (http://12feetunder.com/)</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -118.699025,34.064293,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gibralter Dam</name>
+        <description><![CDATA[This spot is illegal to swim, fish or in any other way be at. It's a magnificent cliff jumping spot though!See  the The Jumping Pool (http://12feetunder.com/Xtreme/Videos.php?7), a video shot at Gibralter Dam]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -119.687461,34.524661,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Red Rock</name>
+        <description><![CDATA[A killer cliff jump and defiantly one of SoCal's best! Go Jumping at Red Rock (http://12feetunder.com/Rocks/hiking/Red-Rock/Trails.php)]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -119.706055,34.539064,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Potholes</name>
+        <description>A great spot to stop and get wet at while your on your way to Red Rock or Gibralter Dam. Get hiking directions to Red Rock (http://12feetunder.com/Rocks/hiking/Red-Rock/Trails.php)</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -119.714584,34.534427,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Port Hueneme Harbor Bridge</name>
+        <description>A nice bridge to take a flying leap off of!</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -119.228009,34.175736,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Mugu's Cauldron]]></name>
+        <description>A killer spot to go extreme cliff jumping</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -119.060897,34.083658,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Man's Jump]]></name>
+        <description>Another illegal cliff jumping spot</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -118.908891,34.196043,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Paradise Falls</name>
+        <description>You can go cliff jumping here as long as you do not climb rocks or do any swimming</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -118.910415,34.214463,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Rock Pool</name>
+        <description>8 bucks to go here...hike on down to Rindge Dam (http://12feetunder.com/Rocks/hiking/Rindge-Dam/Trails.php)</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -118.728476,34.097554,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Century Dam</name>
+        <description>Hey as long as you check the water...</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -118.734012,34.097875,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Matilija Dam</name>
+        <description><![CDATA[160 foot tall dam surrounded by 100 foot cliffs. Check the water you plan on landing on and if you see camo netting...LEAVE! I've seen gun battles here so if you get shot sticking your nose in someone else's business you are screwed]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -119.309464,34.483778,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Matilija Backcountry</name>
+        <description>Matilija Falls and some awesome camping can be found back here so explore.Jumping Off Cliffs (http://12feetunder.com/Xtreme/)</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -119.40688,34.542338,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Tar Creek</name>
+        <description><![CDATA[Yeah it's on top of a mountain. Hike down the hill and you'll see Tar Creek.]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -118.918075,34.492691,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Anacapa Landing Dock</name>
+        <description><![CDATA[This island has a hundred foot staircase over thirty feet of water.I'd love to post this spot on my cliff jumping website, 12 Feet Under (http://12feetunder.com/Xtreme/), so I hope one of you boaters out therE in SoCal hook me up!]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -119.926758,34.034452,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Box Canyon</name>
+        <description><![CDATA[I'm just guessing that this is the spot. You can get text directions at the website that is all about jumping off of cliffs 12 Feet Under (http://12feetunder.com/bin/59/8/spot.php)]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -117.235986,33.099918,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The La Jolla Clam</name>
+        <description>This spot is an extreme spot to go cliff diving. it has the big three 1. 100 foot cliffs 2. Dangerous water 3. Angry cops with ticket books.You can find out more about extreme cliff jumping at 12 Feet Under (http://12feetunder.com/Xtreme/)</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -117.270168,32.850245,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[The Devil's Punchbowl]]></name>
+        <description>Hey guys check the water or you might come to a very sudden stop!See Cliff Jumping Videos (http://12feetunder.com/Xtreme/Videos.php?13) at the extreme website! 12 feet Under</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -116.72802,32.990524,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Man's Jump Hike]]></name>
+        <description><![CDATA[This is the trail to Man's Jump in Thousand Oaks. You will get caught here...eventually!]]></description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -118.908762,34.196221,0
+            -118.908291,34.195653,0
+            -118.907604,34.195261,0
+            -118.907604,34.194056,0
+            -118.908333,34.193522,0
+            -118.909407,34.192742,0
+            -118.910178,34.191747,0
+            -118.911208,34.191108,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Paradise Falls Hike</name>
+        <description><![CDATA[You can be here but don't get caught rock climbing or swimming! Weekdays are good for not getting caught.]]></description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -118.910522,34.214427,0
+            -118.909063,34.213079,0
+            -118.907088,34.214215,0
+            -118.905544,34.214854,0
+            -118.906831,34.215279,0
+            -118.906918,34.216982,0
+            -118.90769,34.219042,0
+            -118.906317,34.220106,0
+            -118.905028,34.219113,0
+            -118.902884,34.219963,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Rindge Dam Hike</name>
+        <description><![CDATA[Yeah it's along a road but we don't do this for the hike! If it bothers you climb down into the canyon and trudge through the poison oak and stinging nettles.]]></description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -118.698949,34.064605,0
+            -118.701181,34.064748,0
+            -118.703841,34.064179,0
+            -118.703841,34.063538,0
+            -118.706074,34.063397,0
+            -118.708304,34.065032,0
+            -118.708735,34.067591,0
+            -118.707618,34.070365,0
+            -118.704871,34.073918,0
+            -118.702725,34.077261,0
+            -118.703498,34.079891,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>The Rock Pool Hike</name>
+        <description>If you go straight after the bridge you skip the adventure hike from the Rock Pool to century Dam</description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -118.734139,34.09823,0
+            -118.7356,34.095885,0
+            -118.733883,34.094391,0
+            -118.731393,34.095032,0
+            -118.728646,34.098159,0
+            -118.726072,34.100433,0
+            -118.722724,34.10022,0
+            -118.720922,34.098159,0
+            -118.718604,34.096097,0
+            -118.716717,34.096738,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Legal hike to Mugu</name>
+        <description>The spot that you may get charged to park</description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -119.060682,34.085436,0
+            -119.060704,34.085667,0
+            -119.061327,34.08588,0
+            -119.061498,34.086218,0
+            -119.061627,34.086893,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Free Parking</name>
+        <description><![CDATA[This spot is scary to pull out onto PCH but it's free!]]></description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -119.060811,34.085472,0
+            -119.060232,34.085844,0
+            -119.059482,34.086005,0
+            -119.059051,34.086128,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>The Parking Spot</name>
+        <description>hey guys you want to bust this jump like you were in Mission Impossible. This spot is the place to park and then make your getaway!</description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -119.227913,34.175736,0
+            -119.227183,34.17571,0
+            -119.227194,34.17595,0
+            -119.22683,34.176073,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>The Punchbowls Hike</name>
+        <description><![CDATA[Long, hot and miserable until you get to the refreshing cold pool at the end of this hike. It's The Punchbowls!]]></description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -119.090594,34.427017,0
+            -119.089736,34.427725,0
+            -119.087075,34.427089,0
+            -119.086389,34.426451,0
+            -119.085702,34.427585,0
+            -119.085273,34.429425,0
+            -119.084501,34.431195,0
+            -119.085445,34.432965,0
+            -119.085102,34.434877,0
+            -119.085702,34.437071,0
+            -119.084243,34.438698,0
+            -119.081669,34.440257,0
+            -119.076862,34.440257,0
+            -119.077892,34.442238,0
+            -119.074802,34.4433,0
+            -119.071627,34.442875,0
+            -119.069738,34.444361,0
+            -119.067593,34.445424,0
+            -119.064673,34.444786,0
+            -119.063214,34.446485,0
+            -119.062957,34.447758,0
+            -119.061069,34.447758,0
+            -119.059094,34.449174,0
+            -119.057721,34.448962,0
+            -119.056606,34.448608,0
+            -119.056347,34.448998,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Tar Creek</name>
+        <description><![CDATA[Hey you drive 10 miles up a mountain and park at the top, it's a big dirt lot very hard to miss. Now a trail leads down the mountain and yes that's the one you follow]]></description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -118.91799,34.492762,0
+            -118.914298,34.493045,0
+            -118.912925,34.494743,0
+            -118.911637,34.494177,0
+            -118.909577,34.493541,0
+            -118.906487,34.49255,0
+            -118.900908,34.48767,0
+            -118.900137,34.48682,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>The Potholes Hike</name>
+        <description>If you can even call it that!</description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -119.714197,34.53495,0
+            -119.714295,34.53464,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>The Walk to Red Rock</name>
+        <description><![CDATA[Keep following the river to get to Gibralter Dam but at least it's a mostly maintained trail.]]></description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -119.706393,34.539164,0
+            -119.706751,34.539174,0
+            -119.706913,34.538992,0
+            -119.707213,34.53897,0
+            -119.707905,34.538665,0
+            -119.708061,34.538519,0
+            -119.708736,34.537897,0
+            -119.709654,34.53708,0
+            -119.710357,34.536425,0
+            -119.71211,34.534984,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>That Dam Fire Road</name>
+        <description><![CDATA[A long hot dusty walk to one of the best cliff jumping spots ever! I prefer to follow the creek from Red Rock and then it's two awesome spots in one hike!]]></description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -119.712164,34.533985,0
+            -119.710651,34.535514,0
+            -119.710373,34.535483,0
+            -119.710459,34.535223,0
+            -119.710662,34.535086,0
+            -119.710711,34.5349,0
+            -119.710486,34.534826,0
+            -119.710217,34.535003,0
+            -119.710041,34.535533,0
+            -119.709594,34.535701,0
+            -119.709011,34.535701,0
+            -119.709011,34.535921,0
+            -119.709107,34.536293,0
+            -119.708657,34.536513,0
+            -119.708421,34.536881,0
+            -119.708044,34.536872,0
+            -119.707894,34.536686,0
+            -119.708682,34.536253,0
+            -119.708693,34.536107,0
+            -119.708346,34.535617,0
+            -119.708854,34.534754,0
+            -119.708597,34.534097,0
+            -119.708736,34.533779,0
+            -119.708967,34.533447,0
+            -119.708951,34.533296,0
+            -119.708838,34.533253,0
+            -119.707536,34.533841,0
+            -119.707341,34.533774,0
+            -119.706602,34.533057,0
+            -119.706371,34.532899,0
+            -119.706097,34.532426,0
+            -119.705679,34.532091,0
+            -119.705528,34.531812,0
+            -119.705609,34.531365,0
+            -119.706301,34.530684,0
+            -119.70688,34.53031,0
+            -119.707207,34.529797,0
+            -119.707729,34.529474,0
+            -119.70769,34.529209,0
+            -119.707063,34.528956,0
+            -119.706515,34.528497,0
+            -119.706119,34.52814,0
+            -119.705029,34.527904,0
+            -119.704595,34.52729,0
+            -119.70444,34.526938,0
+            -119.704155,34.526738,0
+            -119.703801,34.526681,0
+            -119.703394,34.526363,0
+            -119.702627,34.525841,0
+            -119.702284,34.525435,0
+            -119.701576,34.525191,0
+            -119.700862,34.525354,0
+            -119.70004,34.525058,0
+            -119.699681,34.524828,0
+            -119.699258,34.524904,0
+            -119.698404,34.524551,0
+            -119.698082,34.524529,0
+            -119.697788,34.524678,0
+            -119.697514,34.524656,0
+            -119.697112,34.524202,0
+            -119.69678,34.524197,0
+            -119.69619,34.524343,0
+            -119.695948,34.524501,0
+            -119.695739,34.524467,0
+            -119.695674,34.524149,0
+            -119.69597,34.523803,0
+            -119.696001,34.523542,0
+            -119.695525,34.523246,0
+            -119.695079,34.52322,0
+            -119.694987,34.522919,0
+            -119.694849,34.522632,0
+            -119.694945,34.522345,0
+            -119.694649,34.521903,0
+            -119.694157,34.521487,0
+            -119.694044,34.521183,0
+            -119.69363,34.521147,0
+            -119.692584,34.520758,0
+            -119.691661,34.520798,0
+            -119.690702,34.521064,0
+            -119.689301,34.521537,0
+            -119.689103,34.521796,0
+            -119.688771,34.521841,0
+            -119.688562,34.521687,0
+            -119.688749,34.521537,0
+            -119.688845,34.521236,0
+            -119.688732,34.520758,0
+            -119.688598,34.520749,0
+            -119.688545,34.521444,0
+            -119.688266,34.521621,0
+            -119.688342,34.522522,0
+            -119.688716,34.522399,0
+            -119.688771,34.522452,0
+            -119.687439,34.523698,0
+            -119.687644,34.523848,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Anacapa Island</name>
+        <description><![CDATA[You'll need a boat for this one. You could try swimming the 20 odd miles but there's been Great White Sharks reported off our coast for 2 years now.]]></description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -119.235991,34.157273,0
+            -119.917145,34.036729,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Matilija Dam hike</name>
+        <description><![CDATA[Don't get caught hiking on this road guys it's extremely illegal because this dam is crumbling and leaking like one of those you would see in a Bugs Bunny cartoon]]></description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -119.309635,34.490569,0
+            -119.308176,34.489085,0
+            -119.30766,34.487527,0
+            -119.307918,34.486184,0
+            -119.307918,34.485123,0
+            -119.308863,34.484414,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Cable Cars</name>
+        <description>I went here once and almost got shot then arrested. We continued to explore and found decks with garden hoses covered by huge camo nets.</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -119.300794,34.484132,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Cable Cars hike</name>
+        <description>Yeah you just park on the side of the road and start following the trail of empty beer cans and drunken Ojai locals.</description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -119.301824,34.485334,0
+            -119.300666,34.485441,0
+            -119.300794,34.484132,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Matilija Back Country</name>
+        <description>There are many trails but head north to get to Matilija Falls. Explore, and find some of the greatest backpacking spots in Southern California</description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -119.391903,34.508873,0
+            -119.393705,34.510606,0
+            -119.394671,34.511614,0
+            -119.398255,34.512461,0
+            -119.402503,34.514301,0
+            -119.404563,34.51568,0
+            -119.405614,34.516793,0
+            -119.406773,34.517041,0
+            -119.407525,34.517625,0
+            -119.40716,34.521107,0
+            -119.404949,34.521709,0
+            -119.402332,34.523158,0
+            -119.401645,34.527259,0
+            -119.40098,34.530777,0
+            -119.402739,34.531485,0
+            -119.404092,34.533552,0
+            -119.403856,34.537618,0
+            -119.404392,34.539191,0
+            -119.403876,34.539475,0
+            -119.404584,34.540323,0
+            -119.405829,34.540146,0
+            -119.406623,34.54057,0
+            -119.406516,34.541525,0
+            -119.40688,34.542391,0
+            -119.406516,34.541525,0
+            -119.40688,34.542391,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Box Canyon</name>
+        <description>This trail is just a guess so hopefully one of the Box Canyon locals will correct any mistakes I made</description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -117.241007,33.102381,0
+            -117.239183,33.10186,0
+            -117.23721,33.102452,0
+            -117.235515,33.102218,0
+            -117.234807,33.101463,0
+            -117.235106,33.10069,0
+            -117.235879,33.100008,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Devil's Punchbowl Trail]]></name>
+        <description><![CDATA[Hey guys take the walk and don't trespass however tempting it might be]]></description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -116.754885,32.997075,0
+            -116.746645,32.997866,0
+            -116.744499,32.997506,0
+            -116.743126,32.994987,0
+            -116.739949,32.99405,0
+            -116.737375,32.992322,0
+            -116.735573,32.990811,0
+            -116.733684,32.989947,0
+            -116.731967,32.989012,0
+            -116.730423,32.989516,0
+            -116.728363,32.990667,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>The La Jolla Clam Trail</name>
+        <description><![CDATA[Just a guess so get better directions at The La Jolla Clam (http://theclam.com). You will be ticketed for jumping here. It was your decision so I don't want to hear any whining about your consequences.]]></description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -117.270126,32.850155,0
+            -117.269975,32.849451,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>The 619</name>
+        <description>This area is represented by Johnny C and Evan. It is literally crawling with jumps so I hope some of you adrenaline junkies help me add to the insanity that we call Cliff Jumping!</description>
+        <styleUrl>#poly-FFFFFF-3000-26</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -117.647094,33.344295,0
+                -117.235106,32.736462,0
+                -116.427611,32.741081,0
+                -116.619872,33.399344,0
+                -117.647094,33.344295,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>Bridge Jumping in Cleveland</name>
+        <description>The RTA Rapid and The No Excuses Railway are just a few of the awesome jumps along the Cuyahoga River. Get more videos about the ultimate urban sport of bridge Jumping (http://12feetunder.com/Rocks/videos/Bridge-Jumping/Spots.php)!</description>
+        <styleUrl>#line-0000FF-5000</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            -81.711759,41.503563,0
+            -81.708068,41.499257,0
+            -81.703348,41.497777,0
+            -81.701632,41.496107,0
+            -81.704807,41.491928,0
+            -81.703348,41.488841,0
+            -81.699056,41.48852,0
+            -81.699399,41.493149,0
+            -81.696825,41.495077,0
+            -81.691417,41.495077,0
+            -81.693306,41.491928,0
+            -81.693648,41.489741,0
+            -81.693048,41.487492,0
+            -81.691246,41.486269,0
+            -81.688498,41.486463,0
+            -81.684207,41.489099,0
+            -81.681633,41.489741,0
+            -81.679316,41.486269,0
+            -81.676483,41.483761,0
+            -81.675711,41.481062,0
+            -81.672363,41.477589,0
+            -81.669101,41.472445,0
+            -81.669873,41.468778,0
+            -81.673221,41.46537,0
+            -81.679143,41.464212,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>Edgewater Pier</name>
+        <description>A nice jump into the foul Lake Erie</description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -81.73708,41.49257,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The 100+ foot RTA Rapid Bridge</name>
+        <description><![CDATA[You need to sneak onto this bridge. Park on Riverbed street and then head uphill until you see a chainlink fence. When did a No Trespassing sign ever stop you before. Hide in the bushes when you hear a train and don't go to the edge until you're ready!]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -81.70133,41.488407,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The No Excuses Railway</name>
+        <description><![CDATA[There is a guy who will not let you jump so you have to get this one done! I know it's over fifty feet but my rough estimate is 65-70 feet.]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -81.691804,41.486944,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Brookside Sewer Hole</name>
+        <description><![CDATA[You will need to explore around to find this 30 foot jump. it's in a sewage ditch so think twice about swimming in it. I never did because the Cuyahoga River and Lake Erie are nasty enough!]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -81.727027,41.450986,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Nelson's ledges]]></name>
+        <description><![CDATA[A spot I saw people jumping years ago. Enter the park and you'll have to jump a fence.]]></description>
+        <styleUrl>#icon-503-DB4436</styleUrl>
+        <Point>
+          <coordinates>
+            -81.036647,41.322436,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>SoCal Kerplunker Territory</name>
+        <description>This is the the backyard for the extreme cliff jumpers from 12 Feet Under (http://12feetunder.com/Xtreme/). There are dozens of cliff jumps hidden all over the place. Some jumps are inside city limits and other jumps lead you miles out into the Los Padres National Forest.</description>
+        <styleUrl>#poly-FFFFFF-3000-115</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                -120.19043,34.85889,0
+                -120.102538,33.906896,0
+                -118.344727,33.979809,0
+                -118.377685,34.894942,0
+                -120.19043,34.85889,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
