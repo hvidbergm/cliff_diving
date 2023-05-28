@@ -1,7 +1,11 @@
 // map.js
+let config = {
+    fullscreenControl: true // fullscreen button
+}
+
 document.addEventListener('DOMContentLoaded', function () {
     // Initialize the map
-    var map = L.map('map').setView([50, -45], 3);
+    var map = L.map('map', config).setView([50, -45], 3);
     
     // Create a tile layer using a map provider (e.g., OpenStreetMap)
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
