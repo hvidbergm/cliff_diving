@@ -1,9 +1,11 @@
 // map.js
-let config = {
-    fullscreenControl: true // fullscreen button
-}
 
 document.addEventListener('DOMContentLoaded', function () {
+    let config = {
+        fullscreenControl: true, // fullscreen button
+        layers: [osmMap] // base layer
+    }
+
     // Initialize the map
     var map = L.map('map', config).setView([50, -45], 3);
     

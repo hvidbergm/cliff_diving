@@ -17,12 +17,11 @@
 *Header: https://getbootstrap.com/docs/5.3/examples/headers/    
 
 -- MAP UPGRADES: TBD --
-*Cluster markers on zoom: https://tomickigrzegorz.github.io/leaflet-examples/#09.marker-grouping-markercluster-plugin 
-*Center map when clicking marker: https://tomickigrzegorz.github.io/leaflet-examples/#22.center-map-when-click-marker
-*Full screen button: https://tomickigrzegorz.github.io/leaflet-examples/#27.fullscreen
-*Ask for location data to center map: https://tomickigrzegorz.github.io/leaflet-examples/#33.location
-*Location button: https://tomickigrzegorz.github.io/leaflet-examples/#49.location-button
 *Tile layers (sattelite/map): https://tomickigrzegorz.github.io/leaflet-examples/#34.multiple-tile-layers
+*Center map when clicking marker: https://tomickigrzegorz.github.io/leaflet-examples/#22.center-map-when-click-marker
+*Ask for location data to center map: https://tomickigrzegorz.github.io/leaflet-examples/#33.location
+*Cluster markers on zoom: https://tomickigrzegorz.github.io/leaflet-examples/#09.marker-grouping-markercluster-plugin 
+*Location button: https://tomickigrzegorz.github.io/leaflet-examples/#49.location-button
 *Tabs in popup: https://tomickigrzegorz.github.io/leaflet-examples/#51.tabs-in-popup
 *Popup as side panel on fixed position: https://tomickigrzegorz.github.io/leaflet-examples/#68.popup-in-a-fixed-position
 
