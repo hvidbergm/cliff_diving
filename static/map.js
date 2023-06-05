@@ -1,13 +1,7 @@
 // map.js
-
 document.addEventListener('DOMContentLoaded', function () {
-    let config = {
-        fullscreenControl: true, // fullscreen button
-        layers: [osmMap] // base layer
-    }
-
     // Initialize the map
-    var map = L.map('map', config).setView([50, -45], 3);
+    var map = L.map('map', fullscreenControl = true).setView([50, -45], 3);
     
     // Create a tile layer using a map provider (e.g., OpenStreetMap)
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -59,7 +53,17 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
+    var Esri_WorldImagery = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+	    attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+    });
+
+    var overlayMaps = {
+        "Satellite": Esri_WorldImagery
+    };
+
+
     // Add a scale bar to the map
+    L.control.layers(overlayMaps).addTo(map);
     L.control.scale().addTo(map);
 
 });
