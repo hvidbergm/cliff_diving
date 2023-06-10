@@ -1,108 +1,53 @@
 /* styles.css */
-
-/* Global Styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .text-center {
-    text-align: center;
-  }
-  
-  /* Navbar Styles */
-  .navbar {
-    background-color: #f8f9fa;
-    padding: 20px;
-  }
-  
-  .navbar-brand {
-    font-weight: bold;
-    font-size: 24px;
-  }
-  
-  /* Hero Section Styles */
-  .hero-section {
-    background-color: #f8f9fa;
-    padding: 80px 0;
-  }
-  
-  .hero-section h1 {
-    font-size: 48px;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  .hero-section p {
-    font-size: 20px;
-    color: #777;
-  }
-  
-  /* Map Section Styles */
-  #map {
-    height: 400px;
-    width: 100%;
-    border: 1px solid #ccc;
-    margin-bottom: 20px;
-  }
-  
-  /* About Section Styles */
-  .about-section {
-    background-color: #f8f9fa;
-    padding: 80px 0;
-  }
-  
-  .about-section h2 {
-    font-size: 36px;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  .about-section p {
-    font-size: 18px;
-    color: #777;
-  }
-  
-  /* Footer Styles */
-  .footer-section {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 0;
-  }
-  
-  .footer-section p {
-    font-size: 14px;
-  }
-  
-  /* Grid Styles */
-  .row {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-gap: 20px;
-  }
-  
-  .col-md-6 {
-    grid-column: span 6;
-  }
-  
-  .col-md-6,
-  .col-md-8 {
-    margin: 0 auto;
-  }
-  
-  @media (max-width: 768px) {
-    .col-md-6,
-    .col-md-8 {
-      grid-column: span 12;
-    }
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
 
-  img.huechange { filter: hue-rotate(180deg); }
-  
+h1 {
+  color: #333;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* Add more CSS styles as needed */
+img.huechange { filter: hue-rotate(180deg); }
