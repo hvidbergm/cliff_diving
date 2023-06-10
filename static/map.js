@@ -4,11 +4,10 @@ document.addEventListener('DOMContentLoaded', function () {
     var map = L.map('map', fullscreenControl = true).setView([50, -45], 3);
     
     // Create a tile layer using a map provider (e.g., OpenStreetMap)
-    var osMap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>',
-        maxZoom: 18});
-        
-    osMap.addTo(map);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
+        maxZoom: 18,
+    }).addTo(map);
     
     // Fetch the markers file
     fetch('/markers')
@@ -55,11 +54,10 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     var Esri_WorldImagery = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
-	    attribution: 'Tiles &copy; Esri'
+	    attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
     });
 
     var overlayMaps = {
-        "Default": osMap,
         "Satellite": Esri_WorldImagery
     };
 
