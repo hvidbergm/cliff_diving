@@ -6,7 +6,6 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     total_contributions = get_total_contributions()
-    # markers = get_data()
     return render_template('index.html',
                            total_contributions=total_contributions)
 
