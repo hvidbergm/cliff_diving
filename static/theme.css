@@ -184,7 +184,7 @@ a.link-on-bg:hover {
   top: -5px;
 }
 .navbar .navbar-toggler-icon {
-  background: url("../images/bars.svg") no-repeat left top;
+  background: url("../static/bars.svg") no-repeat left top;
   -webkit-opacity: 0.5;
   -moz-opacity: 0.5;
   opacity: 0.5;
@@ -278,7 +278,7 @@ a.link-on-bg:hover {
   font-size: 1.375rem;
 }
 .hero-section {
-   background: url("../images/cliff-diving-hero-mael-balland.jpg") no-repeat center;
+   background: url("../static/cliff-diving-hero-mael-balland.jpg") no-repeat center;
    /* background-size: auto; */
    max-height: auto;
    max-width: auto;
@@ -379,6 +379,12 @@ a.link-on-bg:hover {
    color: #0dcaf0;
    font-size: 2rem;
    text-emphasis: bold;
+}
+#map {
+  height: 400px;
+  width: 400px;
+  /* border: 1px solid #ccc; */
+  /* margin-bottom: 2px; */
 }
 
 /* MEDIA QUERIES */
