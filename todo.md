@@ -1,6 +1,10 @@
 ## PHASE 1
+* Add opacity to background-image
+* Fix default location of map
 * Add about page
 * Make stats dynamic
+* Add full-screen map page
+* Add more info to markers --> contributor, desription, how to get there, safety measures, altitude
 * Add user auth
 * Create flow for validating spots --> do not implement before corrupt behaviour has been seen (the later we filter, the easier it is to add data, hence the more spots will be added). V1=validation DB where I can mark which should be transfered to deployment
 * Deploy to get some actual spots on the map
@@ -24,7 +28,6 @@
 * Popup as side panel on fixed position: https://tomickigrzegorz.github.io/leaflet-examples/#68.popup-in-a-fixed-position
 
 ## COMPLETED
-* Add more info to markers --> contributor, desription, how to get there, safety measures, altitude
 * Add curated lists of spots found online
 * Fix mouse click functionality
 * Add basic reactive styling to website
