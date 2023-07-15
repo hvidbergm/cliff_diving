@@ -1,5 +1,4 @@
 ## PHASE 1
-* Add opacity to background-image
 * Fix default location of map
 * Add about page
 * Make stats dynamic
@@ -32,3 +31,4 @@
 * Fix mouse click functionality
 * Add basic reactive styling to website
 * Add basic information to the site
+* Add opacity to background-image

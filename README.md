@@ -7,7 +7,6 @@
 
 <h2>Status thus far</h2>
 <p>The MVP of the site is basically finished but not deployed yet. The below screenshot shows that some cliff diving spots have been sourced and are shown on the map. You can further click the marker and retreive additional information about the spot. When clicking "Add spot" you land on a form that sends data to the DB that the map is fetching from. To make it fully CRUD I still need to add user auth to allow users to modify and delete spots.</p>
-<img src="imgs/Screenshot 2023-05-21.jpg" alt="Cliff Diving Map">
-<p><i>Shoutout to Split where I had my first cliff diving experience at the left-most blue mark on the map!</i></p>
+<img src="imgs/status-screenshot-2.jpg" alt="Cliff Diving Map">
 
-<h3>To follow my progress you can have a look at the todo.txt file 😊</h3>
+<h3>To follow my progress you can have a look at the todo.md file 😊</h3>
