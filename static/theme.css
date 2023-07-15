@@ -279,7 +279,7 @@ a.link-on-bg:hover {
 }
 .hero-section {
    background: url("../static/cliff-diving-hero-mael-balland.jpg") no-repeat center;
-   /* background-size: auto; */
+   background-size: cover;
    max-height: auto;
    max-width: auto;
  }
@@ -377,7 +377,7 @@ a.link-on-bg:hover {
 }
 .highlights {
    color: #0dcaf0;
-   font-size: 2rem;
+   font-size: 3rem;
    text-emphasis: bold;
 }
 #map {
