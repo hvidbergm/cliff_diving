@@ -3,6 +3,7 @@
 
 ## PHASE 1
 * Fix default location of map
+* Use Tailwind instead of Bootstrap: take a look at DaisyUI components
 * Add about page
 * Make stats dynamic
 * Add full-screen map page
@@ -10,7 +11,7 @@
 * Create flow for validating spots --> do not implement before corrupt behaviour has been seen (the later we filter, the easier it is to add data, hence the more spots will be added). V1=validation DB where I can mark which should be transfered to deployment
 
 ## PHASE 2
-* Add user auth - maybe using Clerck? [Clerk.com](https://clerk.com/)
+* Add user auth - maybe using [Clerk.com](https://clerk.com/) or [NextAuth.js](https://next-auth.js.org/)
 
 ## PHASE 3
 * Deploy to get some actual spots on the map
