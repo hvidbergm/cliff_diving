@@ -1,3 +1,10 @@
+## 2024 stack revamp
+* Mobile-first website
+* React.js
+* Next.js (page routing, API)
+* Tailwind CSS (look at DAISYUI for components)
+* Firebase (database, hosting)
+
 ## PHASE 1
 * Fix default location of map
 * Add about page
